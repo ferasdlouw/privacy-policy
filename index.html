@@ -2,26 +2,77 @@
 <html lang="ar" dir="rtl">
 <head>
   <meta charset="UTF-8">
-  <title>سياسة الخصوصية</title>
+  <title>سياسة الخصوصية - من يعرف الثاني أكثر؟</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
-    body {
-      background-color: #f9f9f9;
-      font-family: sans-serif;
-      padding: 30px;
-      line-height: 1.8;
-      color: #333;
+    :root {
+      --primary: #6a1b9a;
+      --text: #333;
+      --bg: #f7f7f7;
+      --card-bg: #ffffff;
+      --link: #6a1b9a;
     }
+
+    body {
+      margin: 0;
+      background-color: var(--bg);
+      font-family: 'Segoe UI', Tahoma, sans-serif;
+      color: var(--text);
+      line-height: 1.8;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 40px auto;
+      background: var(--card-bg);
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
     h1 {
-      color: #444;
+      text-align: center;
+      color: var(--primary);
+      margin-bottom: 30px;
+    }
+
+    p {
+      margin-bottom: 20px;
+      font-size: 1.1rem;
+    }
+
+    a {
+      color: var(--link);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 600px) {
+      .container {
+        margin: 20px;
+        padding: 20px;
+      }
+
+      h1 {
+        font-size: 1.5rem;
+      }
+
+      p {
+        font-size: 1rem;
+      }
     }
   </style>
 </head>
 <body>
-  <h1>سياسة الخصوصية - تطبيق "من يعرف الثاني أكثر؟"</h1>
-  <p>نحن في فريق التطبيق نلتزم بحماية خصوصيتك. لا نقوم بجمع أي معلومات شخصية حساسة من المستخدمين.</p>
-  <p>نستخدم خدمات خارجية مثل Google AdMob لعرض الإعلانات. هذه الخدمات قد تجمع معلومات غير شخصية مثل نوع الجهاز أو وقت الاستخدام لأغراض تحليلية.</p>
-  <p>باستخدامك للتطبيق، فإنك توافق على سياسة الخصوصية هذه.</p>
-  <p>للاستفسارات: <a href="mailto:faris.app@gmail.com">faris.app@gmail.com</a></p>
+  <div class="container">
+    <h1>سياسة الخصوصية</h1>
+    <p>نحن في فريق تطبيق <strong>من يعرف الثاني أكثر؟</strong> نحرص على حماية خصوصيتك كمستخدم. لا نقوم بجمع أي معلومات شخصية حساسة بدون إذنك.</p>
+    <p>قد نستخدم خدمات خارجية مثل <strong>Google AdMob</strong> لعرض الإعلانات، والتي قد تجمع معلومات غير شخصية مثل نوع الجهاز ومدة الاستخدام لأغراض تحليلية وتحسين تجربة المستخدم.</p>
+    <p>من خلال استخدامك لهذا التطبيق، فإنك توافق على هذه السياسة.</p>
+    <p>لأي استفسار أو تواصل، يمكنك مراسلتنا عبر البريد الإلكتروني: <a href="mailto:fras19@outlook.sa">fras19@outlook.sa</a></p>
+  </div>
 </body>
 </html>
